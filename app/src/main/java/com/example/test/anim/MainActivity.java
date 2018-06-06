@@ -53,7 +53,7 @@ int flag=1;
                 switch(count){
                     case 1: progressBar.setVisibility(View.VISIBLE);
                             textView.setVisibility(View.VISIBLE);
-                            textView.setText("Initializing..");
+                            textView.setText("Initializing...");
                             delay=2000;
                             handler.postDelayed(runnable, delay);
                             break;
